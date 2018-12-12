@@ -4438,7 +4438,7 @@ var utf8 = _dereq_('utf8');
  * http://ghinda.net/jpeg-blob-ajax-android/
  */
 
-var isAndroid = navigator.userAgent.match(/Android/i);
+var isAndroid = /Android/i.test(navigator.userAgent);
 
 /**
  * Check if we are running in PhantomJS.
